@@ -1,0 +1,133 @@
+@font-face {
+    font-family: chalkfont;
+    src: url(chalkfont.ttf);
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(image1.jpg);
+    background-size: 1720px;
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+
+  .left {
+    display: inline-block;
+
+    position: absolute;
+    top: 10px;
+    left: 28px;
+  }
+
+  .left img {
+    width: 90px;
+    line-height: 0px;
+  }
+
+  .mid {
+    display: block;
+    width: 50%;
+    margin: 20px 250px;
+  }
+
+  .right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+  }
+
+  .navbar li a {
+    text-decoration: none;
+    padding: 34px 23px;
+    color: black;
+    font-size: 20px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: gray;
+  }
+
+  .btn {
+    margin: 0px 9px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 4px 14px;
+    border: 2px solid rgba(61, 53, 175, 0.979);
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    background-color: rgb(208, 209, 226);
+  }
+
+  .container {
+    font-family: chalkfont;
+
+    border: 3px solid rgb(252, 255, 253);
+    border-radius: 28px;
+    color: white;
+    margin: 90px 60px;
+    padding: 50px;
+
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    width: 670px;
+    background-size: 1000px;
+  }
+  .container h3 {
+    text-align: center;
+  }
+  .button {
+    font-family: chalkfont;
+  }
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 274px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin: 5px auto;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  #submit {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+  }
+  #submit:hover {
+    background-color: rgb(121, 121, 119);
+  }
+  .inline {
+    display: inline;
+  }
+  #width {
+    width: 66px;
+    margin-left: 520px;
+  }
+  #myclass {
+    border-radius: 6px;
+    margin-left: 131px;
+  }
+
+  #chat img {
+    width: 69px;
+    float: right;
+    padding: 40px;
+  }
